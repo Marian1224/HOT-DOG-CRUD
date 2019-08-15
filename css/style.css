@@ -1,0 +1,124 @@
+html {
+  height: 100%;
+  background-image: linear-gradient(#C1C1C1, #C1C1C1);
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  color: #0f222d;
+  background-size: auto;
+}
+
+.main {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.title {
+  text-align: center;
+  color: #fff;
+}
+
+.form {
+  background-color: #fff;
+  padding: 15px;
+}
+
+.writeText{
+  width: 680px;
+  height: 30px;
+  outline: 0;
+  border: none;
+  font-size: 1.5em;
+  background: #fff;
+  color: #2f4f4f;
+}
+
+.btnADD {
+  font-size: 1.2em;
+  color: greenyellow;
+  background-color: #FFFFFF;
+  outline: 0;
+  border: none;
+  width: 60px;
+  cursor: pointer;
+}
+
+.tasksBoard {
+  background-color: #fff;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+}
+
+.menu {
+  list-style: none;
+}
+
+li {
+  border: 1px solid black;
+  padding-bottom: 15px;
+  padding: 15px;
+  font-size: 1.3em;
+  color: #2f4f4f;
+  margin: 10px;
+}
+
+.clearAll {
+  float: right;
+  text-align: right;
+  color: #ff6161;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.delete {
+  background-color: #ff6161;
+  padding: 0px 3px 0px 3px;
+  font-size: 1.2em;
+  width: 60px;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+}
+
+.edit {
+  background-color: greenyellow;
+  border: none;
+  margin: 0;
+  width: 70px;
+  color: black;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.labelMenu { 
+  display: inline-block;
+  width: 515px;
+  padding: 0 0 0 10px;
+}
+
+.editMode {
+  display: flex;
+}
+
+.menu li .labelMenu {
+  display: inline-block;
+}
+
+.menu li.editMode .formControl {
+  display: block;
+  border: 1px solid #0f222d;
+  border-radius: 5px;
+  width: 515px;
+  padding: 0 0 0 10px;
+  font-size: 1.5em;
+  background-color: #F1F3F4;
+}
+
+.menu li .formControl, .menu li.editMode .labelMenu {
+  display: none;
+}
+
